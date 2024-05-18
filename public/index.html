@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Weather Chart</title>
+
+    <link rel="stylesheet" href="lib/style.css">
+
+    <script type="importmap">
+      {
+        "imports": {
+          "vue": "//unpkg.com/vue@3/dist/vue.esm-browser.js",
+          "components/": "./lib/components/",
+          "models/": "./lib/models/"
+        }
+      }
+    </script>
+
+    <script src="//unpkg.com/chart.js"></script>
+    <script src="//unpkg.com/luxon@^2"></script>
+    <script src="//unpkg.com/chartjs-adapter-luxon@^1"></script>
+    
+    <script src="lib/script.js" type="module"></script>
+  </head>
+
+  <body>
+
+    <div id="app" class="wrapper"></div>
+
+  </body>
+</html>
