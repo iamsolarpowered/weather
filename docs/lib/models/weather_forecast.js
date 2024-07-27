@@ -4,7 +4,7 @@ export default class WeatherForecast {
   }
 
   get url() {
-    return `https://f1.weather.gov/MapClick.php?lat=${this.location.lat}&lon=${this.location.lon}&FcstType=digitalJSON`
+    return `https://forecast.weather.gov/MapClick.php?lat=${this.location.lat}&lon=${this.location.lon}&FcstType=digitalJSON`
   }
 
   async fetchData() {
